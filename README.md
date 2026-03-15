@@ -6,17 +6,30 @@ An [MCP server](https://modelcontextprotocol.io) that provides real-time MIT din
 
 ## Install
 
+Pick whichever runtime you have:
+
+**Bun**
 ```bash
 claude mcp add mit-dining -- bunx mit-dining-mcp
 ```
 
-Or if you prefer to clone locally:
+**Node.js**
+```bash
+claude mcp add mit-dining -- npx mit-dining-mcp
+```
+
+**Deno**
+```bash
+claude mcp add mit-dining -- deno run -A npm:mit-dining-mcp
+```
+
+### From source
 
 ```bash
 git clone https://github.com/hongnoul/mit-dining-mcp.git
 cd mit-dining-mcp
-bun install
-claude mcp add mit-dining -- bun run /path/to/mit-dining-mcp/src/index.ts
+npm install  # or bun install
+claude mcp add mit-dining -- npx tsx src/index.ts
 ```
 
 ## Tools
@@ -61,7 +74,10 @@ Menus are cached in-memory for 1 hour to avoid repeated requests.
 
 ## Requirements
 
-- [Bun](https://bun.sh) runtime
+One of:
+- [Node.js](https://nodejs.org) 18+
+- [Bun](https://bun.sh)
+- [Deno](https://deno.land) 2+
 
 ## License
 
