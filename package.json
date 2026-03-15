@@ -1,6 +1,7 @@
 {
   "name": "mit-dining-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.hongnoul/mit-dining",
   "description": "MCP server for MIT dining hall menus (Bon Appétit)",
   "type": "module",
   "bin": {
