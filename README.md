@@ -72,6 +72,14 @@ claude mcp add mit-dining -- npx tsx src/index.ts
 
 A ready-to-run Discord bot with `/dinner`, `/menu`, and `/diet` slash commands. See [`examples/discord-bot`](examples/discord-bot) for setup instructions.
 
+### iOS Shortcut
+
+A tiny HTTP server that returns Siri-friendly plain text. Point an iOS Shortcut at it to ask "Hey Siri, what's for dinner at MIT?" See [`examples/ios-shortcut`](examples/ios-shortcut).
+
+### Google Calendar Sync
+
+A script that creates calendar events for each meal period with the full menu in the description. Run it on a cron to keep your week synced. See [`examples/gcal-sync`](examples/gcal-sync).
+
 ## How it works
 
 MIT's dining is run by Bon Appétit, whose website embeds structured menu data (`Bamco.menu_items` and `Bamco.dayparts`) as JSON in `<script>` tags. This server scrapes and parses that data — no API key needed.
