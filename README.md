@@ -66,6 +66,12 @@ claude mcp add mit-dining -- npx tsx src/index.ts
 | `next-house` | Next Dining |
 | `simmons` | Simmons Dining |
 
+## Examples
+
+### Discord Bot
+
+A ready-to-run Discord bot with `/dinner`, `/menu`, and `/diet` slash commands. See [`examples/discord-bot`](examples/discord-bot) for setup instructions.
+
 ## How it works
 
 MIT's dining is run by Bon Appétit, whose website embeds structured menu data (`Bamco.menu_items` and `Bamco.dayparts`) as JSON in `<script>` tags. This server scrapes and parses that data — no API key needed.
