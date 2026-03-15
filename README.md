@@ -1,6 +1,6 @@
 # mit-dining-mcp
 
-An [MCP server](https://modelcontextprotocol.io) that provides real-time MIT dining hall menus from all 6 Bon Appétit locations. Ask Claude what's for dinner, filter by dietary needs, or plan your meals for the week.
+An [MCP server](https://modelcontextprotocol.io) that provides real-time MIT dining hall menus from all 6 Bon Appétit locations. Ask Claude what's for dinner, filter by dietary needs, plan your meals for the week, or ask whether if the menus are mid.
 
 [![Demo](https://asciinema.org/a/yQV3A6ai2U4tvSTu.svg)](https://asciinema.org/a/yQV3A6ai2U4tvSTu)
 
